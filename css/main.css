@@ -1,0 +1,15 @@
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #ffbb99;
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 10px;
+}
+
+.item {
+
+}

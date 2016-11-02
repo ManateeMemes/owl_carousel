@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Autumn</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+
+    <h1>Autumn Nature</h1>
+
+    <div class="owl-carousel">
+      <div class="img"><img src="img/autumn_pathway.jpg"></div>
+      <div class="img"><img src="img/forest.jpg"></div>
+      <div class="img"><img src="img/maroon_city.jpg"></div>
+      <div class="img"><img src="img/raspberries.jpg"></div>
+      <div class="img"><img src="img/red_forest.jpg"></div>
+      <div class="img"><img src="img/rose.jpg"></div>
+      <div class="img"><img src="img/bridge.jpg"></div>
+      <div class="img"><img src="img/leaves_water.jpg"></div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script>
+    $(document).ready(function() {
+      $('.owl-carousel').owlCarousel({
+        autoplay : true,
+        autoplayTimeout : 2000,
+        autoplayHoverPause : true,
+        items : 1,
+        loop : true,
+        margin : 5,
+
+      })
+     })
+    </script>
+  </body>
+</html>
